@@ -1,0 +1,19 @@
+{
+  "name": "botgor",
+  "version": "1.0.0",
+  "description": "bot by pays",
+  "main": "bot.js",
+  "dependencies": {
+    "discord.js": "^11.6.4",
+    "fs": "0.0.1-security",
+    "random-number": "0.0.9",
+    "request": "^2.88.2",
+    "strftime": "^0.10.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pays",
+  "license": "ISC"
+}
