@@ -4,10 +4,10 @@ const request = require('request');
 
 module.exports.run = async(client,message,args) =>{
     const feed = [
-        "https://i.pinimg.com/originals/51/a5/04/51a50453219cb839a8282b8731d0d15c.gif",
-        "https://i.pinimg.com/originals/19/d8/88/19d88805de4e47b7c22090256ef381e2.gif",
-        "https://i.pinimg.com/originals/cd/48/60/cd4860962ee60de6c10e0c9011ddaa0e.gif",
-        "https://i.pinimg.com/originals/ec/cf/3e/eccf3e06660fc923509ffc257bb917d5.gif"
+        "https://media.discordapp.net/attachments/758681865229697031/897505642833662052/2.png?width=1214&height=683",
+        "https://media.discordapp.net/attachments/758681865229697031/897505642833662052/2.png?width=1214&height=683",
+        "https://media.discordapp.net/attachments/758681865229697031/897505642833662052/2.png?width=1214&height=683",
+        "https://media.discordapp.net/attachments/758681865229697031/897505642833662052/2.png?width=1214&height=683"
     ];
 
 if (!message.mentions.users.first()) {
