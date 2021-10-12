@@ -12,7 +12,7 @@ module.exports.run = async(client,message,args) =>{
     ];
 
     if (!message.mentions.users.first()) {
-        return message.channel.send(`Укажи пользователя , которого хочешь ПОКОРМИТЬ`)
+        return message.channel.send(`Укажи пользователя , которого хочешь ПОКОРМИТЬm`)
     }
         
 
