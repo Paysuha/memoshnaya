@@ -3,16 +3,16 @@ const { RichEmbed } =  require('discord.js');
 
 module.exports.run = async(client,message,args) =>{
     const meow = [
-        "https://media.discordapp.net/attachments/758681865229697031/897505642833662052/2.png?width=1214&height=683",
-        "https://media.discordapp.net/attachments/758681865229697031/897505642833662052/2.png?width=1214&height=683",
-        "https://media.discordapp.net/attachments/758681865229697031/897505642833662052/2.png?width=1214&height=683",
-        "https://media.discordapp.net/attachments/758681865229697031/897505642833662052/2.png?width=1214&height=683",
-        "https://media.discordapp.net/attachments/758681865229697031/897505642833662052/2.png?width=1214&height=683",
-        "https://media.discordapp.net/attachments/758681865229697031/897505642833662052/2.png?width=1214&height=683"
+        "https://media.discordapp.net/attachments/758681865229697031/897854200778719252/2.png?width=1214&height=683",
+        "https://media.discordapp.net/attachments/758681865229697031/897854200778719252/2.png?width=1214&height=683",
+        "https://media.discordapp.net/attachments/758681865229697031/897854200778719252/2.png?width=1214&height=683",
+        "https://media.discordapp.net/attachments/758681865229697031/897854200778719252/2.png?width=1214&height=683",
+        "https://media.discordapp.net/attachments/758681865229697031/897854200778719252/2.png?width=1214&height=683",
+        "https://media.discordapp.net/attachments/758681865229697031/897854200778719252/2.png?width=1214&height=683"
     ];
 
     if (!message.mentions.users.first()) {
-        return message.channel.send(`Укажи пользователя , которого хочешь ПОКОРМИТЬm`)
+        return message.channel.send(`Укажи пользователя , которого хочешь ПОКОРМИТЬ`)
     }
         
 
